@@ -287,6 +287,17 @@ nav a:hover {
   max-width: 600px; /* Limit maximum width */
   font-size: 1.5rem; /* Add or adjust this line for font size */
 }
+.founder-quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.founder-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2e5339;
+}
 
 .founder-image {
   flex: 1;
@@ -663,14 +674,4 @@ nav a:hover {
     max-width: 100%;
   }
 }
-.founder-quote {
-  font-size: 1.2rem;
-  font-style: italic;
-  margin-bottom: 10px;
-}
 
-.founder-name {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #2e5339;
-}
