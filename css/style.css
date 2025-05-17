@@ -285,6 +285,7 @@ nav a:hover {
   flex: 1.5; /* Reduced from 2 to 1.5 for better proportion */
   min-width: 300px;
   max-width: 600px; /* Limit maximum width */
+  font-size: 1.3rem; /* Add or adjust this line for font size */
 }
 
 .founder-image {
