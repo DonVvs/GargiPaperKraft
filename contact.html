@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Gargi PaperKraft</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fffdf6;
+      color: #2e5339;
+    }
+
+    header {
+      background-color: #f8f8f8;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .logo-section {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-img {
+      height: 60px;
+      margin-right: 15px;
+    }
+
+    .logo-text {
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .tagline {
+      margin: 0;
+      font-size: 14px;
+      color: #444;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #2e5339;
+      font-weight: bold;
+    }
+
+    .contact-main {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+
+    .contact-container {
+      max-width: 1200px;
+      display: flex;
+      gap: 40px;
+      margin: auto;
+      flex-wrap: wrap;
+    }
+
+    .contact-left, .contact-right {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .contact-left h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+
+    .contact-left form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .contact-left input,
+    .contact-left textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      border-radius: 5px;
+      resize: vertical;
+    }
+
+    .contact-left button {
+      width: fit-content;
+      padding: 10px 25px;
+      background-color: #2e5339;
+      color: white;
+      border: none;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .contact-right h3 {
+      margin-top: 0;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    .contact-right p {
+      margin: 10px 0;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo-section">
+        <img src="images/logo.jpg" alt="Logo" class="logo-img">
+        <div>
+          <h1 class="logo-text">Gargi PaperKraft</h1>
+          <p class="tagline">Eco-Friendly. Handmade. Sustainable Paper Bags.</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About Us</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contact-main">
+    <div class="contact-container">
+      <div class="contact-left">
+        <h2>SEND US AN EMAIL</h2>
+        <form action="https://formsubmit.co/gargi.paperkraft@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="thankyou.html">
+
+          <label>Your Name (required)</label>
+          <input type="text" name="name" required>
+
+          <label>Your Email (required)</label>
+          <input type="email" name="email" required>
+
+          <label>Contact Number (required)</label>
+          <input type="tel" name="phone" required>
+
+          <label>Subject</label>
+          <input type="text" name="subject">
+
+          <label>Your Message</label>
+          <textarea name="message" rows="6"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-right">
+        <h3>ABOUT US</h3>
+        <p>
+          We are Gargi PaperKraft, manufacturers of eco-friendly paper bags. We create elegant and sustainable packaging options for all types of needs.
+        </p>
+
+        <h3>CONTACT US</h3>
+        <p><strong>Phone:</strong> +91 9956736666 / +91 8948861197</p>
+        <p><strong>Email:</strong> gargi.paperkraft@gmail.com</p>
+        <p><strong>Address:</strong>  B-33, Dayal Greens Phase - I, Dewa Road, Near Kunwar Global School<br/> Lucknow, Uttar Pradesh – 226019</p>
+
+        <p><em>Do you have questions about how we can help your company?</em><br>
+        <strong style="color: green;">Send us an email and we’ll get in touch shortly.</strong></p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
