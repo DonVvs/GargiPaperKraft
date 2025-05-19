@@ -681,4 +681,11 @@ nav a:hover {
   font-size: 32px; /* or any size you want */
   color: #333;     /* optional, for color styling */
 }
+.nav-menu a {
+  font-family: 'ArialRoundedBold', Arial, sans-serif;
+  font-size: 18px; /* adjust size as you wish */
+  color: #222;     /* optional styling */
+  text-decoration: none;
+  padding: 10px;
+}
 
