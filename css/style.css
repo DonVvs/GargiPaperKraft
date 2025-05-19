@@ -688,4 +688,16 @@ nav a:hover {
   text-decoration: none;
   padding: 10px;
 }
+.founder-header h1 {
+  font-size: 36px;
+}
+
+.founder-header h2 {
+  font-size: 28px;
+}
+
+.founder-header p {
+  font-size: 18px;
+  line-height: 1.6;
+}
 
