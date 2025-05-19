@@ -668,4 +668,17 @@ nav a:hover {
     max-width: 100%;
   }
 }
+@font-face {
+  font-family: 'ArialRoundedBold';
+  src: url('fontss/arial-rounded-mt-bold.woff2') format('woff2'),
+       url('fontss/arial-rounded-mt-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo-heading {
+  font-family: 'ArialRoundedBold', Arial, sans-serif;
+  font-size: 32px; /* or any size you want */
+  color: #333;     /* optional, for color styling */
+}
 
